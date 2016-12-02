@@ -17,6 +17,16 @@ Data Precessing for single model -- > Data Precessing_single model.ipynb
           
 These files precessed data for the single model input. 
 
+Data Precessing for stacking model --> Dataset_stacking.ipynb
+
+4 output: 
+
+          Layer1 training dataset: 'train_layer1_x.csv'
+                                   "train_layer1_label.csv"
+          Layer2 training dataset: 'train_layer1_x.csv'
+                                   "train_layer1_label.csv"                        
+                        
+
 Data Precessing for ensemble: stacking --> 
 
 Ridge Regression --> Ridge.ipynb
