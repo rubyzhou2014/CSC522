@@ -19,10 +19,6 @@ Data Precessing for single model -- > Data Precessing_single model.ipynb
           
 These files precessed data for the single model input. 
 
-Ridge Regression --> Ridge.ipynb
-
-
-Stacking:
 
 Data Precessing for stacking model --> Dataset_stacking.ipynb
 
@@ -33,6 +29,13 @@ Data Precessing for stacking model --> Dataset_stacking.ipynb
           Layer2 training dataset: 'train_layer1_x.csv'
                                    "train_layer1_label.csv"                        
                         
-1st Layer : Ridge-Stacking.ipynb
+
+I am constructiong the pipeline for stacking, before that you need to run the stacking manually. 
+
+For example, if you have 4 models in first layer, these 4 models need train first using the Layer1 training dataset that we get from Dataset_stacking.ipynb. Then prepare the data for the second layer: use the Layer2 training dataset as an input for first layer's model, the outputs are then the training data for second layer's model. 
+
+Note: currently, dividing the whole dataset for training models in two layers separately is not the best idea. But due to time limit, it is the fastest one. Later, I will complete this part for future use. 
+
+
 
 
