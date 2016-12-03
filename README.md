@@ -36,6 +36,7 @@ For example, if you have 4 models in first layer, these 4 models need train firs
 
 Note: currently, dividing the whole dataset for training models in two layers separately is not the best idea. But due to time limit, it is the fastest one. Later, I will complete this part for future use. 
 
+Note: Note: Although I first used four different models in my first layer's stacking. But I found you will you better result if you applied similar models in the first model, for example, two NN and two xgboost.
 
 
 
