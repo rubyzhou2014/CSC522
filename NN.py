@@ -1,7 +1,4 @@
-''' 
-Author: Danijel Kivaranovic 
-Title: Neural network (Keras) with sparse data
-'''
+#This script is revised based on https://www.kaggle.com/mtinti/allstate-claims-severity/keras-starter-with-bagging-1111-84364
 
 ## import libraries
 import numpy as np
